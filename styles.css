@@ -252,16 +252,19 @@ nav {
     grid-template-columns: repeat(auto-fill,240px);
     gap: 26px;
     place-content: center;
+    align-items: center;
     margin-top: 20px;
+    padding: 0;
 }
 .product-card{
     width: 240px;
 }
 .product-card img {
-    width: 240px;
-    height: 240px;
+    width: 200px;
+    height: 200px;
     border-radius: 20px;
     object-fit: cover;
+    padding: 12px;
 }
 .product-info{
     display: flex;
